@@ -15,6 +15,7 @@ void setup(void) {
 }
 // added a comment
 
+
 void loop() {
 
     uint32_t realSize = ESP.getFlashChipRealSize();
