@@ -12,8 +12,10 @@ int i=0;
 
 void setup(void) {
     Serial.begin(115200);
+    
 }
 // added a comment
+// added a second comment
 
 
 void loop() {
@@ -22,7 +24,7 @@ void loop() {
     uint32_t ideSize = ESP.getFlashChipSize();
     FlashMode_t ideMode = ESP.getFlashChipMode();
 
-       Serial.printf("Flash real id:   %08X\n", ESP.getFlashChipId());
+    Serial.printf("Flash real id:   %08X\n", ESP.getFlashChipId());
     Serial.printf("Flash real size: %u\n\n", realSize);
 
     Serial.printf("Flash ide  size: %u\n", ideSize);
